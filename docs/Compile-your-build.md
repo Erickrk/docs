@@ -26,7 +26,7 @@ Once you have set up the development environment, unzip the source code into a f
 ## Customize your build
 There are mainly 2 type of possible customization:
 
-1. Changing default settings that will be used by Tasmota when running for the first time on a blank device (no previous existing configutrion in flash or flash erased). This can be done on any variant as it doesn't change the code base, memory footprint or required libraries. Such customization include: default Wi-Fi settings, default MQTT settings, default values for a setting including `SetOption<x>`.
+1. Changing default settings that will be used by Tasmota when running for the first time on a blank device (no previous existing configuration in flash or flash erased). This can be done on any variant as it doesn't change the code base, memory footprint or required libraries. Such customization include: default Wi-Fi settings, default MQTT settings, default values for a setting including `SetOption<x>`.
 
 2. Adding or removing features. This is essentially supported only on the base **tasmota/tasmota32** environment). Other variants have been fine tuned and trying to add/remove features to them is most likely to fail and Tasmota development team will provide no support. The typical failure is trying to add sensors to `tasmota-display` or adding displays to `tasmota-sensors`. The proper way is to add both sensors and displays to `tasmota`.
 
